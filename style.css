@@ -118,6 +118,11 @@ body {
   
 }
 
+.main a{
+  color: white;
+  text-decoration: none;
+}
+
 main button{
   /* color: rgb(121, 31, 31); */
   color: white;
@@ -171,16 +176,15 @@ font-weight: bold;
     text-align: center;
     color: #575757b9;
     font-weight: bold;
-    padding: 10px;
+    margin-top: 10px;
   }
 
 footer{
   background-color: #390909;
+  
+  color: white;
   /* margin-top: 10px; */
   
-  /* padding: 1px; */
-  color: white;
-  /* margin-bottom: 0px; */
 }
 
 footer ul{
@@ -190,4 +194,25 @@ footer ul{
 
 footer ul li{
   padding: 10px;
+}
+
+  .Apply{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact{
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.Apply a{
+  text-decoration: none;
+}
+
+.Apply .contact a{
+  text-decoration: underline;
 }

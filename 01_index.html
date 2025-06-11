@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom NavBar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header">
+
+      <div class="time-container" id="time"></div>
+       <div>For any issue please email To - support@chittamkheriplot.org </div>
+      <div >
+        Call on - 9368003040
+      </div>
+    </div>
+ 
+
+
+   
+  </header>
+
+  <nav class="navbar">
+    <div class="left">
+      <img src="deenhome.jpg" alt="" height="100">
+      <!-- <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Content</a> -->
+    </div>
+    <div class="right">
+     <a href="mailto:krrishsharma698@gmail.com">Contact Us</a>
+     <a href="index.html">Home</a>
+
+      <a href="tel:+917618612979" class="call-btn">Call Now</a>
+
+      <a href="#"> Apply Now</a>
+    </div>
+  </nav>
+ 
+ <main class="Apply">
+    <h1>Registrations are Now Closed</h1>
+    <p>
+        Thank you for your interest.
+        
+    </p>
+    <p>
+        Unfortunately, Registration has now closed.
+    </p>
+
+    <p>If you want to apply for advance <b><i><a href="02_index.html"> Click -</a></i></b></p>
+
+    <div class="contact"> For any question, feel free to <a href="mailto:krrishsharma698@gmail.com">contact us</a></div>
+
+ </main>
+     
+
+  </main>
+    <div class="visitors">
+       Visitors:307069
+    </div>
+  <footer>
+     <ul>
+      <li>Terms and Privacy</li>
+      <li>Refund Policy</li>
+      <li>Supported Browsers</li>
+      <li>System Requirment</li>
+     </ul>
+    
+
+  </footer>
+
+
+   
+ 
+
+</body>
+<script>
+    function updateTime() {
+      const now = new Date();
+      const formatted = now.toLocaleTimeString();
+      document.getElementById('time').textContent = formatted;
+    }
+
+    updateTime(); // Initial call
+    setInterval(updateTime, 1000); // Update every second
+  </script>
+</html>
