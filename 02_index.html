@@ -7,28 +7,28 @@
     <link rel="stylesheet" href="02_style.css">
 </head>
 <body>
-    
+    <form action="https://sheetdb.io/api/v1/vo05ilz24czar" method="post"> 
         <div class="container">
 
             <div class="box">
                 <span>
                      Full Name 
                 </span>  
-                 <input type ="text" placeholder="Your answer">
+                 <input type ="text" placeholder="Your answer" name="Name">
             </div>
 
             <div class="box">
                  <span>
                     Email Id:
                 </span>  
-                 <input type ="email" placeholder="xyz@gmail.com">
+                 <input type ="email" placeholder="xyz@gmail.com" name="Email">
             </div>
 
             <div class="box">
                  <span>
                        Contact No:
                 </span>  
-                 <input type ="text" placeholder="Your answer">
+                 <input type ="tel" placeholder="Your answer" name="tel">
 
             </div>
 
@@ -37,17 +37,59 @@
                      Whatsapp No:
                 </span>  
               
-                <input type ="text" placeholder="Your answer">
+                <input type ="mobile" placeholder="Your answer"  name="mobile">
             </div>
-        </div>
+            <div class="box">
+       <div class="experience-section">
+  <h3>Apna Experience Select Karein</h3>
+   
+    <div>
 
-             
+        <input type="radio" name="experience" value="0" required>
+        0 Level Experience
+    </div>
+     <div>
+
+         
+         <input type="radio" name="experience" value="6months">
+         6+ Months
+        </div>
+  
+    <div>
+        
+        <input type="radio" name="experience" value="1year">
+        1+ Year
+    </div>
+   
+    <div>
+
+        <input type="radio" name="experience" value="2years">
+        2+ Years
+    </div>
+     
+   
+</div>
+
+            </div>
+
+            <div class="box">
+                 <span>
+                    About Yourself 
+                </span>  
+              
+                <textarea name="Feedback" id="" placeholder="Enter somthing about Yourself..!!" name="Feedback"></textarea>
+            </div>
+
+                  <b><button type="submit" name="Submit">Submit</button>  </b>
+        </div>
+                
 
         <footer class="footer">
-            <div class="box1">
-
+            
+<div class="boxfooter">
+    
                 
-                <b> <input type="button" value="Submit">  </b>
+               
         
                     <div class="first">
                      Never submit passwords through Google Forms.
@@ -60,8 +102,14 @@
             <div>    Does this form look suspicious? Report </div>
             
         </div>
+</div>
                  
               </footer>
+
+ </form>
+
+      
+              
 
 </body>
 </html>
