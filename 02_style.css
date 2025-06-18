@@ -13,6 +13,67 @@ body{
     padding-top: 30px;
 }
 
+/* सामान्य सेटिंग्स */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* हैम्बर्गर मेनू बटन */
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  /* left: 20px; */
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-toggle .bar {
+  width: 22px;
+  height: 4px;
+  margin: 6px 0;
+  background-color: #333;
+  transition: 0.4s;
+}
+
+/* साइडबार मेनू */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-content a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.sidebar-content a:hover {
+  color: #007bff;
+}
+
+
 
 .container .heading{
      
